@@ -1,23 +1,17 @@
-*,
-*::before,
-*::after {
-  /* margin: 0;
-  padding: 0; */
-  box-sizing: border-box;
+nav {
+  background-color: #f72310;
+  padding: 10px;
+  height: 50px;
+  /* width: 50%; */
+  border-radius: 20px !important;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  background-color: orangered;
-  width: 100% !important;
+svg {
+  width: 110px;
+  height: 20px;
+  fill: #fff;
 }
 
-.nav {
-  display: flex;
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 15px 10px;
-  border-end-end-radius: 100%;
+a {
+  color: black !important;
 }
