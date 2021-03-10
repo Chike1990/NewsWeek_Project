@@ -12,6 +12,10 @@ svg {
   fill: #fff;
 }
 
+.set-background {
+  enable-background: new 0 0 395.6 60;
+}
+
 a {
   color: black !important;
 }
