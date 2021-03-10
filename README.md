@@ -11,13 +11,12 @@ Additional description about the project and its features.
 ## Built With
 
 - Bootstrap4
-- Responsive css
 - html5
 - css3
 ## Live Demo
-https://wajahat414.github.io/mv-wk2_Responsive-Website/. 
 
-You can check out our live demo here [here](https://wajahat414.github.io/mv-wk2_Responsive-Website/)
+You can check out our live demo here 
+https://chike1990.github.io/mv_wk3_bootstrap_Project/.
 
 ## Getting Started
 
