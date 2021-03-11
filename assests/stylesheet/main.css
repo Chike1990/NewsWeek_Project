@@ -36,7 +36,7 @@ ul {
 }
 
 .p-footer ul li a {
-  color: #666;
+  color: #666 !important;
   text-decoration: none;
 }
 
