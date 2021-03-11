@@ -16,7 +16,8 @@ Additional description about the project and its features.
 ## Live Demo
 
 You can check out our live video here becoz having issue with live link
-https://www.loom.com/share/8d6798f78844402fac4e8117abb9a05b
+https://www.loom.com/share/8d6798f78844402fac4e8117abb9a05b/.
+live server
 https://chike1990.github.io/mv_wk3_bootstrap_Project/.
 
 ## Getting Started
