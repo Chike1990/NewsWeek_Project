@@ -20,7 +20,7 @@
 .copyright {
   font-size: 12px;
   line-height: 12px;
-  color: #666;
+  color: #666 !important;
   position: relative;
 }
 
