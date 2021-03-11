@@ -1,15 +1,102 @@
+<!DOCTYPE html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assests\stylesheet\style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/stylesheet/main.css" />
+    <link rel="stylesheet" href="./assests/stylesheet/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/0bdcc4c296.js" crossorigin="anonymous"></script>
-    <title>bootstrapProject</title>
+    <link rel="stylesheet" href="./assests/genericons.css" />
+    <title>bootstrap</title>
 </head>
 
 <body>
+    <header>
+        <nav class="nav align-items-center justify-content-between p-2 d-xl-none">
+            <a href="#" title="header-nav">
+                <svg version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60"
+                    class="set-background" xml:space="preserve">
+                    <g>
+                        <path class="st0"
+                            d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+
+            <div class="d-flex align-middle subscribe-content">
+                <a class="text-white active" aria-current="page" href="#">
+                    <strong class="d-none d-md-inline-block login-title">LOGIN</strong>
+                    <i class="d-md-none fas fa-user font-20 mr-2"></i>
+                </a>
+                <input type="button" class="d-flex btn btn-warning m-auto rounded-pill" value="Subscibe">
+                <a class="text-white" title="header-nav" href="#"><i class="fas fa-bars font-20 menu-icon"></i></a>
+            </div>
+        </nav>
+        <nav class="d-none d-xl-flex nav align-items-end justify-content-between p-2 pb-3">
+            <span class="text-white">Wed, Jan 20, 2021</span>
+            <a href="#" title="header">
+                <svg version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60"
+                    style="enable-background: new 0 0 395.6 60" xml:space="preserve">
+                    <g>
+                        <path class="st0"
+                            d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+
+            <div class="d-flex">
+                <a class="nav-link text-white active d-none d-md-block" aria-current="page" href="#">
+                    <b><em>LOGIN</em></b>
+                </a>
+                <a href="" role="button" class="btn btn-warning m-auto rounded-pill font-weight-bold font-13">
+                    SUBSCRIBE >
+                </a>
+            </div>
+        </nav>
+
+        <nav class="d-none d-xl-flex flex-column bg-white menu-title p-0 align-middle">
+            <div class="d-flex mo-next border mb-2">
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">U.S</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">World</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Business</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Tech & Science</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Culture</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Newsweek</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Sports</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Health</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">The Debate</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Experts</a>
+                <a class="font-weight-bold pr-4 pl-3 border-3" href="">Vantage</a>
+
+
+                <form>
+                    <div class="form-group m-0">
+                        <label for="exampleFormControlFile1" class="m-0">Search</label>
+                        <i class="text-muted fas fa-search font-20 menu-icon"></i>
+                        <input type="text" class="form-control-file d-none" id="exampleFormControlFile1" />
+                    </div>
+                </form>
+
+            </div>
+            <div class="d-flex mo-next border mb-2">
+                <a class="nav-link font-weight-bold" href="#">TRENDING</a>
+                <a class="nav-link text-muted" href="#">JOE BIDEN</a>
+                <a class="nav-link text-muted" href="#">DONALD TRUMP</a>
+                <a class="nav-link text-muted" href="#">INAGURATION</a>
+                <a class="nav-link text-muted" href="">CORONAVIRUS</a>
+                <a class="nav-link text-muted" href="">STIMULUS PAKAGE</a>
+                <a class="nav-link text-muted" href="">VACCINE</a>
+                <a class="nav-link text-muted" href="">CAPITOL RIOTS</a>
+            </div>
+        </nav>
+    </header>
     <!-- Chike's code starts here -->
     <main>
         <section class="d-flex flex-column flex-md-row flex-wrap">
@@ -17,189 +104,289 @@
                 <div class="top-story d-md-none">
                     <h4 class="text-muted">TOP STORY</h4>
                     <div class="mb-4">
-                    <div class="position-relative">
-                    <a href="#"><img class="w-100" src="Images Week3\Top_story\biden-speaks-delaware.webp" alt="top-story"></a>
-                    <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="Images Week3\Top_story\biden-speaks-delaware.webp"
+                                    alt="top-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <h3><a href="#" class="text-decoration-none text-dark">Joe Biden's First Executive Actions Undo
+                                Many of Donald Trump's</a></h3>
+                        <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among
+                            the first taken as he begins his tenure.</p>
                     </div>
-                    <h3><a href="#" class="text-decoration-none text-dark">Joe Biden's First Executive Actions Undo Many of Donald Trump's</a></h3>
-                    <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken as he begins his tenure.</p>     
-                    </div>      
                 </div>
 
                 <div class="feat-stor">
                     <h4 class="text-muted">FEATURED STORIES</h4>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp" alt="featured-story"></a>
-                        <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                            <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp"
+                                    alt="featured-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
                         </div>
-                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
-                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                        <div class="p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald
+                                    Trump on His Last Day As President</a></h3>
+                            <p>Notable people pardoned by Trump today include former White House chief strategist Steve
+                                Bannon and rapper Lil Wayne.</p>
+                        </div>
                     </div>
 
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\featured stories\trump-waves-south-lawn.webp" alt="featured-story"></a>
-                        <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                            <a href="#"><img class="w-100"
+                                    src="Images Week3\featured stories\trump-waves-south-lawn.webp"
+                                    alt="featured-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
                         </div>
-                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">Donald Trump Can Issue Secret Pardons, but They're Risky</a></h3>
-                        <p>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy Giuliani</p></div>    
+                        <div class="p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">Donald Trump Can Issue Secret
+                                    Pardons, but They're Risky</a></h3>
+                            <p>Trump chose not to issue pardons for himself of his personal attorney, former New York
+                                Mayor Rudy Giuliani</p>
+                        </div>
                     </div>
 
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp" alt="featured-story"></a>
-                        <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                            <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp"
+                                    alt="featured-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
                         </div>
-                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
-                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                        <div class="p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald
+                                    Trump on His Last Day As President</a></h3>
+                            <p>Notable people pardoned by Trump today include former White House chief strategist Steve
+                                Bannon and rapper Lil Wayne.</p>
+                        </div>
                     </div>
 
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp" alt="featured-story"></a>
-                        <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                            <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp"
+                                    alt="featured-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
                         </div>
-                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
-                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                        <div class="p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald
+                                    Trump on His Last Day As President</a></h3>
+                            <p>Notable people pardoned by Trump today include former White House chief strategist Steve
+                                Bannon and rapper Lil Wayne.</p>
+                        </div>
                     </div>
 
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp" alt="featured-story"></a>
-                        <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                            <a href="#"><img class="w-100" src="./Images Week3\featured stories\donald-trump.webp"
+                                    alt="featured-story"></a>
+                            <span
+                                class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
                         </div>
-                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
-                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                        <div class="p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald
+                                    Trump on His Last Day As President</a></h3>
+                            <p>Notable people pardoned by Trump today include former White House chief strategist Steve
+                                Bannon and rapper Lil Wayne.</p>
+                        </div>
                     </div>
                 </div>
 
-                
- <!--  Wajahat's Code:     THE DEBATE                  -->
+
+                <!--  Wajahat's Code:     THE DEBATE                  -->
                 <div class="the-debate d-md-none pt-4">
                     <h4 class="text-muted">THE DEBATE</h4>
                     <div class="position-relative border-bottom border-top border-4">
                         <div class="d-flex flex-column border-bottom border-1 pt-2 pb-3 mb-1">
                             <div class="mb-0">
-                                <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                                <div class="pt-1">                 
-                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                                <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                                <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                        src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                                <div class="pt-1">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                            Cancel Trump</strong></a>
+                                    <p class="text-muted">BY <a href="#"
+                                            class="text-decoration-none text-dark small"><strong>FROMA
+                                                HARROP</strong></a></p>
                                 </div>
                             </div>
                         </div>
-                        <span class="position-absolute bg-dark text-light rounded-circle p-2 line-height-1 fs-6 fw-bold" style="top: 37%; left: 50%;">VS</span>
+                        <span class="position-absolute bg-dark text-light rounded-circle p-2 line-height-1 fs-6 fw-bold"
+                            style="top: 37%; left: 50%;">VS</span>
                         <div class="d-flex flex-column border-top border-1">
                             <div class="mb-1 mt-4">
-                                <a href="#"><img class="float-end rounded-circle my-auto ps-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                                <div class="pt-1 text-start">                 
-                                <a href="#" class="text-decoration-none text-dark"><strong>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens</strong></a>
-                                <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark"><strong>RACHEL BOVARD</strong></a></p>
+                                <a href="#"><img class="float-end rounded-circle my-auto ps-2" width="60" height="60"
+                                        src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                                <div class="pt-1 text-start">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>After Parler Ban, Rein in
+                                            Big Tech Now or Cease Being Free Citizens</strong></a>
+                                    <p class="text-muted">BY <a href="#"
+                                            class="text-decoration-none text-dark"><strong>RACHEL BOVARD</strong></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <h4 class="text-muted mt-3">OPINION</h4>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                
-<!-- Chike: Sponspored-Insights -->
+
+                <!-- Chike: Sponspored-Insights -->
 
                 <div class="sponspored-insights">
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
-                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance
+                                    Real Estate Investing Possible for Millennials</a></h3>
+                            <p>75% of Roofstock users are first-time real estate investors, and more than half are under
+                                35.</p>
+                        </div>
                     </div>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
-                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance
+                                    Real Estate Investing Possible for Millennials</a></h3>
+                            <p>75% of Roofstock users are first-time real estate investors, and more than half are under
+                                35.</p>
+                        </div>
                     </div>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
-                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance
+                                    Real Estate Investing Possible for Millennials</a></h3>
+                            <p>75% of Roofstock users are first-time real estate investors, and more than half are under
+                                35.</p>
+                        </div>
                     </div>
                     <div class="border-1">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
-                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance
+                                    Real Estate Investing Possible for Millennials</a></h3>
+                            <p>75% of Roofstock users are first-time real estate investors, and more than half are under
+                                35.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,181 +403,266 @@
                 <div class="top-story d-none d-md-block">
                     <h4 class="text-muted">TOP STORY</h4>
                     <div class="mb-4">
-                    <div class="position-relative">
-                    <a href="#"><img class="w-100" src="Images Week3\Top_story\biden-speaks-delaware.webp" alt="topstory-image"></a>
-                    <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="Images Week3\Top_story\biden-speaks-delaware.webp"
+                                    alt="topstory-image"></a>
+                            <span
+                                class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <h3><a href="#" class="text-decoration-none text-dark">Joe Biden's First Executive Actions Undo
+                                Many of Donald Trump's</a></h3>
+                        <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among
+                            the first taken as he begins his tenure.</p>
                     </div>
-                    <h3><a href="#" class="text-decoration-none text-dark">Joe Biden's First Executive Actions Undo Many of Donald Trump's</a></h3>
-                    <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken as he begins his tenure.</p>     
-                    </div>      
                 </div>
                 <div class="more-stories mt-4 order-md-4">
                     <h4 class="text-muted py-2">MORE STORIES</h4>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
-                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\More-stories\more-stories.jpg" alt="more-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge?
+                                    67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                            <p class="text-muted small">The incoming president has not said what he plans to do with the
+                                tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift
+                                camps along the border.</p>
                         </div>
                     </div>
                 </div>
                 <div class="latest-news mt-4 order-md-5">
                     <h4 class="text-muted py-2">LATEST NEWS</h4>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                     <div class="border-top py-3 mt-3">
-                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100" src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
-                        <div class="pt-1">                 
-                        <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
-                        <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                        <a href="#"><img class="float-start my-auto pe-2" width="100" height="100"
+                                src="Images Week3\Lastest\latest-image.jpg" alt="latest-news-image"></a>
+                        <div class="pt-1">
+                            <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4
+                                    Expected to Start Shooting Today</a></strong>
+                            <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and
+                                production has been reported to be...</p>
                         </div>
                     </div>
                 </div>
                 <div class="my-turn mt-4 order-md-2">
                     <h4 class="text-muted">MY TURN</h4>
                     <div class="d-flex flex-column flex-md-row gap-3">
-                        <div class="mb-4">                    
-                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp" alt="myTurn-image"></a>                    
-                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        <div class="mb-4">
+                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp"
+                                    alt="myTurn-image"></a>
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to
+                                    Avoid Inheritance Tax'</a></strong>
                         </div>
-                        <div class="mb-4">                    
-                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp" alt="myTurn-image"></a>                    
-                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        <div class="mb-4">
+                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp"
+                                    alt="myTurn-image"></a>
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to
+                                    Avoid Inheritance Tax'</a></strong>
                         </div>
-                        <div class="mb-4">                    
-                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp" alt="myTurn-image"></a>                    
-                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        <div class="mb-4">
+                            <a href="#"><img class="w-100" src="Images Week3\My-turn-image\my-turn-image.webp"
+                                    alt="myTurn-image"></a>
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to
+                                    Avoid Inheritance Tax'</a></strong>
                         </div>
                     </div>
                 </div>
@@ -398,27 +670,36 @@
                 <div class="culture-travel mt-4 order-md-3">
                     <h4 class="text-muted">CULTURE & TRAVEL</h4>
                     <div class="d-flex flex-column flex-md-row gap-3">
-                        <div class="mb-4">                    
+                        <div class="mb-4">
                             <div class="position-relative">
-                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp" alt="myTurn-image"></a>
-                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
-                            </div>                   
-                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
+                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp"
+                                        alt="myTurn-image"></a>
+                                <span
+                                    class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around
+                                    the World</a></strong>
                         </div>
-                        <div class="mb-4">                    
+                        <div class="mb-4">
                             <div class="position-relative">
-                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp" alt="myTurn-image"></a>
-                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
-                            </div>                   
-                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
+                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp"
+                                        alt="myTurn-image"></a>
+                                <span
+                                    class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around
+                                    the World</a></strong>
                         </div>
-                        <div class="mb-4">                    
+                        <div class="mb-4">
                             <div class="position-relative">
-                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp" alt="myTurn-image"></a>
-                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
-                            </div>                   
-                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
-                        </div>                 
+                                <a href="#"><img class="w-100" src="Images Week3\culture_travel\culture_travel.webp"
+                                        alt="myTurn-image"></a>
+                                <span
+                                    class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around
+                                    the World</a></strong>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,7 +708,7 @@
 
 
 
-<!-- Wajahat's Code on the Debate & Opinions -->
+            <!-- Wajahat's Code on the Debate & Opinions -->
 
             <div id="right-column" class="container-fluid px-3 col-lg-3">
                 <div class="the-debate d-none d-md-block">
@@ -435,20 +716,29 @@
                     <div class="position-relative border-bottom border-top border-4">
                         <div class="d-flex flex-column border-bottom border-1 pt-2 pb-3 mb-1">
                             <div class="mb-0">
-                                <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                                <div class="pt-1">                 
-                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                                <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                                <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                        src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                                <div class="pt-1">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                            Cancel Trump</strong></a>
+                                    <p class="text-muted">BY <a href="#"
+                                            class="text-decoration-none text-dark small"><strong>FROMA
+                                                HARROP</strong></a></p>
                                 </div>
                             </div>
                         </div>
-                        <span class="position-absolute bg-dark text-light rounded-circle p-2 line-height-1 fs-6 fw-bold" style="top: 37%; left: 50%;">VS</span>
+                        <span class="position-absolute bg-dark text-light rounded-circle p-2 line-height-1 fs-6 fw-bold"
+                            style="top: 37%; left: 50%;">VS</span>
                         <div class="d-flex flex-column border-top border-1">
                             <div class="mb-1 mt-4">
-                                <a href="#"><img class="float-end rounded-circle my-auto ps-2" width="60" height="60" src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>   
-                                <div class="pt-1 text-start">                 
-                                <a href="#" class="text-decoration-none text-dark"><strong>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens</strong></a>
-                                <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark"><strong>RACHEL BOVARD</strong></a></p>
+                                <a href="#"><img class="float-end rounded-circle my-auto ps-2" width="60" height="60"
+                                        src="Images Week3\The Debate\froma-harrop.webp" alt="debate-image"></a>
+                                <div class="pt-1 text-start">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>After Parler Ban, Rein in
+                                            Big Tech Now or Cease Being Free Citizens</strong></a>
+                                    <p class="text-muted">BY <a href="#"
+                                            class="text-decoration-none text-dark"><strong>RACHEL BOVARD</strong></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -458,115 +748,178 @@
 
                     <h4 class="text-muted mt-3">OPINION</h4>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <div  class="border-bottom py-3">
-                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60" src="Images Week3\opinion-image.png" alt="debate-image"></a>   
-                            <div class="pt-1">                 
-                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
-                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                        <div class="border-bottom py-3">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" width="60" height="60"
+                                    src="Images Week3\opinion-image.png" alt="debate-image"></a>
+                            <div class="pt-1">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to
+                                        Cancel Trump</strong></a>
+                                <p class="text-muted">BY <a href="#"
+                                        class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="fre-sign-up"> 
+                <div class="fre-sign-up">
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
-                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to
+                                    Innovation and R and D; Center</a></h3>
+                            <p class="small">With its pro-business agenda and open-border policy for investors, the
+                                Central European nation is hoping to bounce back from the COVID-19 crisis, while making
+                                greater strides toward innovation, research and development.</p>
+                        </div>
                     </div>
                     <div class="sign-up container-fluid p-1">
                         <div class="w-100 my-3">
                             <div class="bg-light p-2 mx-auto">
                                 <div class="caption d-flex gap-2 my-3">
-                                    <img src="Nicon" alt="N icon is here" class="signicon d-block float-left" width="30" height="30">
+                                    <img src="Nicon" alt="N icon is here" class="signicon d-block float-left" width="30"
+                                        height="30">
                                     <h6 class="float-left">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
                                 </div>
                                 <form class="form p-0" action="#">
-                                    <input class="w-100 p-2 border-1 btn-outline-secondary bg-white" type="email" placeholder="Email address" size="10">
-                                    <button type="button" class="btn btn-block w-100 mt-3 btn-danger">Free sign up <i class="fas fa-chevron-right"></i></button>
+                                    <input class="w-100 p-2 border-1 btn-outline-secondary bg-white" type="email"
+                                        placeholder="Email address" size="10">
+                                    <button type="button" class="btn btn-block w-100 mt-3 btn-danger">Free sign up <i
+                                            class="fas fa-chevron-right"></i></button>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="Insight-image"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="Insight-image"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
-                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to
+                                    Innovation and R and D; Center</a></h3>
+                            <p class="small">With its pro-business agenda and open-border policy for investors, the
+                                Central European nation is hoping to bounce back from the COVID-19 crisis, while making
+                                greater strides toward innovation, research and development.</p>
+                        </div>
                     </div>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="hungary"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="hungary"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
-                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to
+                                    Innovation and R and D; Center</a></h3>
+                            <p class="small">With its pro-business agenda and open-border policy for investors, the
+                                Central European nation is hoping to bounce back from the COVID-19 crisis, while making
+                                greater strides toward innovation, research and development.</p>
+                        </div>
                     </div>
                     <div class="mb-4">
                         <div class="position-relative">
-                        <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg" alt="hungary"></a>
-                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                            <a href="#"><img class="w-100" src="Images Week3\insight-image\insight_image.jpg"
+                                    alt="hungary"></a>
+                            <span
+                                class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED
+                                INSIGHT</span>
                         </div>
-                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
-                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                        <div class="border p-2">
+                            <h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to
+                                    Innovation and R and D; Center</a></h3>
+                            <p class="small">With its pro-business agenda and open-border policy for investors, the
+                                Central European nation is hoping to bounce back from the COVID-19 crisis, while making
+                                greater strides toward innovation, research and development.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -575,4 +928,66 @@
 
 
     </main>
+    <footer class="p-footer container-fluid px-4">
+        <div class="top-bar pb-1 d-md-flex justify-content-md-between align-items-md-baseline">
+            <div class="d-md-flex">
+                <a href="#" title="svg"><svg class="" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                        xml:space="preserve">
+                        <path class="st0"
+                            d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                        </path>
+                    </svg>
+                </a>
+                <p class="copyright my-3 text-uppercase">© 2021 NEWSWEEK DIGITAL LLC</p>
+            </div>
+            <ul class="social d-flex">
+                <li><a class="genericon genericon-twitter" href="#" rel="noopener" target="_blank"
+                        title="Newsweek Twitter Page"></a></li>
+                <li><a class="genericon genericon-facebook" href="#" rel="noopener" target="_blank"
+                        title="Newsweek facebook Page"></a></li>
+                <li><a class="genericon genericon-instagram" href="#" rel="noopener" target="_blank"
+                        title="Newsweek instagram Page"></a></li>
+                <li><a class="genericon genericon-tumblr" href="#" rel="noopener" target="_blank"
+                        title="Newsweek tumblr Page"></a></li>
+                <li><a class="genericon genericon-linkedin" href="#" rel="noopener" target="_blank"
+                        title="Newsweek linked Page"></a></li>
+
+            </ul>
+        </div>
+        <div class="footer-links pt-1">
+            <div class="footer-link-edition d-flex">
+                <label><strong>Editions:</strong></label>
+                <ul class="menue d-flex">
+                    <li><a href="#">U.S. Edition</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">Pakistan</a></li>
+                    <li><a href="#">Polska</a></li>
+                    <li><a href="#">România</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-link-menue">
+                <ul class="menue">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Corrections</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">Editorial Guidelines</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms of Sale</a></li>
+                    <li><a href="#">Archives</a></li>
+                    <li><a href="#">Announcements</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
 </body>
+</html>
