@@ -24,16 +24,18 @@
   position: relative;
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 0 !important;
 }
 
-.p-footer  ul {
+.p-footer ul {
   list-style-type: none;
 }
 
-.p-footer  ul li a {
+.p-footer ul li a {
   color: #666;
   text-decoration: none;
 }
