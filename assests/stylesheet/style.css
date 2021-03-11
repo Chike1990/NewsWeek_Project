@@ -1,3 +1,21 @@
+@font-face {
+  font-family: news-font;
+  src: url(../fonts/dejavu-sans/DejaVuSans.ttf);
+}
+
+.text-muted {
+  color: #6c757d !important;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  bottom: 0;
+  padding: .5rem .5rem;
+}
+
 nav {
   background-color: #f72310;
   padding: 10px;
@@ -19,7 +37,7 @@ a {
   margin-left: 5px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1220px) {
   .subscribe-content {
     align-items: center;
   }
@@ -29,11 +47,17 @@ a {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1220px) {
   nav {
-    height: 95px;
+    height: 76px;
     padding: 20px !important;
   }
+
+  main {
+    border-top: 15px solid transparent;
+    border-image: linear-gradient(to right, rgb(234,234,234) 0%, #fff 100%);
+    border-image-slice: 1;
+}
 
   .mo-links {
     align-items: center;
