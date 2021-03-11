@@ -1,0 +1,52 @@
+nav {
+  background-color: #f72310;
+  padding: 10px;
+  height: 70px;
+  width: 100%;
+}
+
+svg {
+  width: 110px;
+  height: 20px;
+  fill: #fff;
+}
+
+a {
+  color: black !important;
+}
+
+.text-white {
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe-content {
+    align-items: center;
+  }
+
+  .login-title {
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav {
+    height: 95px;
+    padding: 20px !important;
+  }
+
+  .mo-links {
+    align-items: center;
+  }
+
+  .menu-options {
+    background-color: #fff;
+    padding: 5px 100px 5px 10px !important;
+    height: auto;
+  }
+
+  svg {
+    height: 55px;
+    width: auto;
+  }
+}
