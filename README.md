@@ -14,12 +14,8 @@ Additional description about the project and its features.
 - html5
 - css3
 ## Live Demo
-
-You can check out our live video here becoz having issue with live link
-https://www.loom.com/share/8d6798f78844402fac4e8117abb9a05b/.
 live server
-https://chike1990.github.io/mv_wk3_bootstrap_Project/.
-
+ https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_one/index.html
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
