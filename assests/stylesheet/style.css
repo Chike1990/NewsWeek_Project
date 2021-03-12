@@ -146,6 +146,13 @@ a {
     border-top: none;
     padding: 0;
   }
+
+  #center-column {
+    padding: 0 !important;
+    padding-left: 0px;
+    padding-left: 20px;
+    padding-left: 25px !important;
+  }
 }
 
 @media only screen and (min-width: 1220px) {
