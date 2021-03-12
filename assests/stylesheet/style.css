@@ -61,6 +61,10 @@
   color: black;
 }
 
+h4 {
+  margin-bottom: 0;
+}
+
 .custom-container-fluid {
   margin-left: auto !important;
   margin-right: auto !important;
