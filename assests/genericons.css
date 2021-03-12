@@ -13,74 +13,71 @@
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   line-height: 1;
-  font-family: "Genericons-Provisions";
+  font-family: "Genericons-Provisions,sans-serif";
   text-decoration: inherit;
   font-weight: normal;
   font-style: normal;
   vertical-align: top;
-}
-
-.genericon {
   *overflow: auto;
   *zoom: 1;
   *display: inline;
 }
 
-.genericon-standard:before {
+.genericon-standard::before {
   content: "\f100";
 }
 
-.genericon-aside:before {
+.genericon-aside::before {
   content: "\f101";
 }
 
-.genericon-image:before {
+.genericon-image::before {
   content: "\f102";
 }
 
-.genericon-gallery:before {
+.genericon-gallery::before {
   content: "\f103";
 }
 
-.genericon-video:before {
+.genericon-video::before {
   content: "\f104";
 }
 
-.genericon-status:before {
+.genericon-status::before {
   content: "\f105";
 }
 
-.genericon-quote:before {
+.genericon-quote::before {
   content: "\f106";
 }
 
-.genericon-link:before {
+.genericon-link::before {
   content: "\f107";
 }
 
-.genericon-chat:before {
+.genericon-chat::before {
   content: "\f108";
 }
 
-.genericon-audio:before {
+.genericon-audio::before {
   content: "\f109";
 }
 
 /* Social icons */
 
-.genericon-github:before {
+.genericon-github::before {
   content: "\f200";
 }
 
-.genericon-dribbble:before {
+.genericon-dribbble::before {
   content: "\f201";
 }
 
-.genericon-twitter:before {
+.genericon-twitter::before {
   content: "\f202";
 }
 
-.genericon-facebook:before {
+.genericon-facebook::before {
   content: "\f203";
 }
 
