@@ -15,9 +15,10 @@ Additional description about the project and its features.
 - css3
 ## Live Demo
 
-You can check out our live video here becoz having issue with live link
-live server
+
+
 https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_two/index.html
+
 
 ## Getting Started
 
