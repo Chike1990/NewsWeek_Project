@@ -4,7 +4,7 @@
 
 > A project that explores responsive web design using Bootstrap following the mobile first design approach . A simple clone of [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) News Week
 
-![screenshot](./screenshot.png?raw=true "Optional Title")
+![screenshot](./_screenshot.png?raw=true "Optional Title")
 
 Additional description about the project and its features.
 
