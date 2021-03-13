@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 
 
-https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_two/index.html
+https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_three/index.html
 
 
 ## Getting Started
