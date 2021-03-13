@@ -26,6 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone the project unto your local machine
 - Change directory to the folder.
+-ok
 - Open index.html with a liveserver or directly in your browser
 
 ## Authors
