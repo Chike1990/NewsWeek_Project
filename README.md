@@ -4,7 +4,7 @@
 
 > A project that explores responsive web design using Bootstrap following the mobile first design approach . A simple clone of [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) News Week
 
-![screenshot](./screenshot.png?raw=true "Optional Title")
+![screenshot](./_screenshot.png?raw=true "Optional Title")
 
 Additional description about the project and its features.
 
@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 
 
-https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_two/index.html
+https://raw.githack.com/Chike1990/mv_wk3_bootstrap_Project/milestone_three/index.html
 
 
 ## Getting Started
@@ -26,6 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone the project unto your local machine
 - Change directory to the folder.
+-ok
 - Open index.html with a liveserver or directly in your browser
 
 ## Authors
@@ -44,7 +45,8 @@ https://github.com/Chike1990
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Chike1990/mv_wk3_bootstrap_Project/issues
+).
 
 ## Show your support
 
@@ -52,5 +54,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
 
