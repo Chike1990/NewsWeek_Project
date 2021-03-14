@@ -9,6 +9,27 @@
   font-weight: bolder;
 }
 
+.svg-background {
+  enable-background: new 0 0 395.6 60;
+}
+
+.properties-subscribe {
+  top: 30px;
+  left: 80px;
+}
+
+.width-250 {
+  width: 250px;
+}
+
+.news-letter-image {
+  background-image: url(https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 110px;
+}
+
 .signicon .d-block {
   -webkit-flex: none;
   flex: none;
